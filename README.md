@@ -16,22 +16,6 @@ The Bounty Board is a fully decentralized, production-ready freelance marketplac
 3. **Dispute Resolution**: Built-in mechanisms to dispute sub-par work, ensuring sponsors can reclaim funds safely while penalizing malicious actors via the reputation registry.
 4. **Real-time Event Streaming**: The UI actively listens to Soroban contract events to automatically update transaction logs and balances without requiring page refreshes.
 5. **Premium UI/UX**: Built with Next.js, Tailwind CSS, and Freighter Wallet integration. Features a responsive Kanban-style board, glassmorphism accents, and error-handling toast notifications.
-
----
-
-## 📝 Requirements Met
-
-- **Advanced smart contract development**: Built with rust, encompassing multi-state lifecycle management and complex structs.
-- **Inter-contract communication**: `bounty-board` dynamically invokes `contributor-registry`.
-- **Event streaming & real-time updates**: Implemented via `@stellar/stellar-sdk` RPC calls and custom hooks (`useActivityFeed`).
-- **CI/CD pipeline setup**: GitHub Actions automatically builds and deploys contracts to the Testnet.
-- **Smart contract deployment workflow**: Automated through `deploy-contracts.yml` and `scripts/deploy_testnet.sh`.
-- **Mobile responsive frontend development**: Fully responsive Tailwind Kanban grid and header.
-- **Error handling & loading states**: Integrated skeleton loaders, toast notifications, and robust error catching.
-- **Writing tests for contracts and frontend**: Comprehensive Rust unit/integration tests (`cargo test`).
-- **Production-ready architecture practices**: Modular React components, decoupled smart contracts, and environment variable configurations.
-- **Documentation & demo presentation**: Thorough README and a clear demo video walkthrough.
-
 ---
 
 ## 📸 Platform Gallery & Submission Checklist
